@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sys4web.usecred.HomeFrag"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@mipmap/ic_logo"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:id="@+id/tvBoasVindas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:text="Bem vindo ao aplicativo UseCred!"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvFrase1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:text="	"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:drawableStart="@drawable/ic_home"
+        android:gravity="center_vertical"
+        android:text="Voltar ao início (esta tela)" />
+
+    <TextView
+        android:id="@+id/tvFrase2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:gravity="center_vertical"
+        android:text="Consulta de estabelecimentos" />
+
+    <TextView
+        android:id="@+id/tvFrase3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="80dp"
+        android:drawableStart="@android:drawable/ic_menu_compass"
+        android:gravity="center_vertical"
+        android:text="Consulta de saldo" />
+
+    <TextView
+        android:id="@+id/tvFrase4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:drawableStart="@android:drawable/ic_menu_help"
+        android:gravity="center_vertical"
+        android:text="Sobre" />
+</LinearLayout>

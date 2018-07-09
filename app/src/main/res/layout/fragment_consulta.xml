@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sys4web.usecred.ConsultaFrag">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:src="@mipmap/ic_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estabelecimentos Credenciados"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btCnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Consulta por nome" />
+
+    <Button
+        android:id="@+id/btCcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:freezesText="true"
+        android:text="Consulta por categoria" />
+
+</LinearLayout>
